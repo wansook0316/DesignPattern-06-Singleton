@@ -7,5 +7,15 @@
 
 import Foundation
 
-print("Hello, World!")
+internal func main() {
+
+    // 생성 불가
+    // let king = King()
+
+    // 접근만 가능
+    King.shared.say()
+
+}
+
+main()
 
